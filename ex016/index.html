@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="circulo-de-cores.png" type="image/x-icon">
+    <style>
+        body {
+            background-color: rgb(18, 18, 18);
+        }
+        h1 {
+            text-align: center;
+        }
+        p {
+            text-align: justify;
+        }
+    </style>
+    <title>Trabalhando com cores</title>
+</head>
+<body>
+    <h1 style="background-color: #0000ff; color: #ffffff;">Representação por códigos Hexadecimais:</h1>
+    <p>
+          As cores podem ser representadas por meio de códigos hexadecimais (16) da seguinte forma:<br>
+        Para atingir 16 algarismos, usamos números de 0 até 9, e as letras de A até F desse modo:<br>
+        0 1 2 3 4 5 6 7 8 9 A B C D E F<br>
+          Em prática, as cores primárias (vermelho, verde e azul) serão representadas por dois algarismos.<br>
+        Ex: #000000 Cada par de zero representa a frequência de presença de cada cor. Nesse caso exemplificado, todas as cores apresentam ausência de presença, portanto, esse código hexadecmial representaria a cor preta.
+    </p>
+    <h1 style="background-color: rgb(0, 0, 255); color: white;">Representação em RGB<br>(Red, Green, Blue):</h1>
+    <p>
+        As cores também podem ser representadas pela maneira RGB. Para isso, basta apenas enumerar a intensidade de cada cor primária, de zero até 225.<br>
+        Ex: rgb(0,0,225) Aqui temos a tonalidade máxima do azul, pois a presença do vermelho e verde está configurado para 0, enquanto que a presença do azul está em 225 (máximo).
+    </p>
+    <h1 style="background-color: hsl(242, 100%, 50%); color: white;">Representação por HSL<br>(Hue, Saturation, Luminosity):</h1>
+    <p>
+        Outra maneira de represntar cores, é pela HSL. <br>
+        Nesta, os primeiros algarismos mostram a matiz, já a porcentagem representa primeiro a saturação e por último a luminosidade.
+    </p>
+</body>
+</html>
